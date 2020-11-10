@@ -1,0 +1,1049 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/* header */
+header{
+  width: auto;
+  height: 55px;
+}
+.first{
+  width: 583px;
+  height: 55px;
+  background-color: black;
+}
+.second{
+  margin-left: 584px;
+  margin-top: -55px;
+  width: 768px;
+  height: 55px;
+  background: #EFEFEF;
+}
+.menu{
+  width: 72%;
+  height: 5px;
+  margin: auto;
+  display: flex;
+}
+a{
+  text-decoration: none; 
+  color: rgb(10, 10, 10);
+  margin-top: 7px;
+  margin-right: 70px; 
+}
+li{
+  list-style-type: none;
+  white-space: nowrap;
+  font-size: 16px;
+}
+.nav{
+  display: flex;
+  width: 20%;
+  margin-top: 2%;
+  margin-left: 20px;
+  padding-left: 0;
+}
+.nav a:hover{
+  color: #99C911;
+}
+
+.navline{
+  position: absolute;
+  width: 110px;
+  height: 0px;
+  left: 705px;
+  top: 40px;
+  
+  border: 1px solid #97CA15;
+  box-shadow: 0px 2px 3px #97CA15;
+}
+.ru{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 46px;
+  top: 17px;
+
+  color: lawngreen;
+  background-color: black;
+  border: 0;
+
+}
+.kg{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 71px;
+  top: 17px;
+
+  color: white;
+  background-color: black;
+  border: 0;
+}
+.logo{
+  position: absolute;
+  width: 81px;
+  height: 48px;
+  left: 250px;
+  top: 2px;
+}
+.bigline{
+  position: absolute;
+  margin-top: -104px;
+}
+/*content1*/
+.content1{
+  position: absolute;
+  width: 583px;
+  height: 3750px;
+  left: 0px;
+  top: 54px;
+
+  background: #EFEFEF;
+  background-image: url(/img/Group\ 51.png);
+}
+.bigline{
+  position: absolute;
+  left: 27.5px;
+  top: 149px;
+}
+/* nadpisi */
+.conteiner{
+  position: absolute;
+  width: 583px;
+  height: 380px;
+  left: 0px;
+  top: 50px;
+}
+.nadpis1{
+  position: absolute;
+  width: 456.18px;
+  height: 110px;
+  left: 63px;
+  top: -90px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 148px;
+}
+.nadpis2{
+  position: absolute;
+  width: 323.75px;
+  height: 35px;
+  left: 73px;
+  top: 120px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28.6364px;
+  line-height: 35px;
+}
+.logo2{
+  position: absolute;
+  width: 139px;
+  height: 67.16px;
+  left: 330px;
+  top: 130px;
+}
+.nadpis3{
+  position: absolute;
+  width: 390px;
+  height: 29px;
+  left: 73px;
+  top: 190px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+.perezvon{
+  position: absolute;
+  width: 297px;
+  height: 66px;
+  left: 152px;
+  top: 310px;
+  font-size: larger;
+  
+  border: 6px solid #99C911;
+  box-sizing: border-box;
+  border-radius: 11px;
+}
+.perezvon:hover{
+  background-color: #99C911;
+}
+
+/* offline */
+.menukurses{
+  position: absolute;
+  width: 583px;
+  height: 380px;
+  left: 0px;
+  top: 620px;
+}
+.nashi{
+  position: absolute;
+  width: 404px;
+  height: 44px;
+  left: 63px;
+  top: 5px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+}
+.predost{
+  position: absolute;
+  width: 474px;
+  height: 18.93px;
+  left: 63px;
+  top: 65px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.6694px;
+  line-height: 19px;
+}
+.kurs{
+  position: absolute;
+  width: 223px;
+  height: 24px;
+  left: 121px;
+  top: 130px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+}
+.kurs li{
+  font-size: larger;
+  color: black;
+  list-style-type: disc;
+}
+.kurs :hover{
+  color: #99C911;
+}
+/* Kontacty*/
+.kontakt{
+  position: absolute;
+  width: 547px;
+  height: 146px;
+  left: 36px;
+  top: 1200px;
+  
+  background: #ECE9E9;
+}
+.inplace{
+  border: none;
+  outline: none;
+  height: 146px;
+  border: solid 1px #f2f2f2;
+}
+.txt{
+  position: absolute;
+  padding-left: 40px;
+  padding-top: -10px;
+}
+.inptxt{
+  position: absolute;
+  width: 167px;
+  height: 25.25px;
+  left: 365px;
+  top: 49px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 11px;
+  text-align: center;
+}
+.check{
+  position: absolute;
+  margin-left: 345px;
+  margin-top: 58px;
+}
+#city{
+  position: absolute;
+  height: 20px;
+  padding: 6px 80px;
+  margin-left: 40px;
+  margin-top: 50px;
+  background-color: rgb(233, 225, 225);
+  border: none;
+  border-bottom: 3px solid chartreuse;
+  font-family: "Nunito",sans-serif;
+  font-size: 10px;
+}
+.butn{
+  position: absolute;
+  width: 137.24px;
+  height: 19.42px;
+  left: 380px;
+  top: 100px;
+    
+  border: 1px solid #99C911;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.butn:hover{
+  background-color: #99C911;
+}
+/* online */
+.menukurses2{
+  position: absolute;
+  width: 583px;
+  height: 580px;
+  left: 0px;
+  top: 1430px;
+}
+.nashi2{
+  position: absolute;
+  width: 404px;
+  height: 44px;
+  left: 63px;
+  top: 5px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+}
+.predost2{
+  position: absolute;
+  width: 474px;
+  height: 18.93px;
+  left: 63px;
+  top: 75px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.6694px;
+  line-height: 19px;
+}
+.kurs2{
+  position: absolute;
+  width: 223px;
+  height: 24px;
+  left: 121px;
+  top: 140px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+}
+.kurs2 li{
+  font-size: larger;
+  color: black;
+  list-style-type: disc;
+}
+.kurs2 :hover{
+  color: #99C911;
+}
+.onkurs{
+  position: absolute;
+  width: 367px;
+  height: 66px;
+  left: 108px;
+  top: 470px;
+  
+  font-size: larger;
+  border: 6px solid #99C911;
+  box-sizing: border-box;
+  border-radius: 11px;
+}
+.onkurs:hover{
+  background-color: #99C911;
+}
+
+/* О нас */
+.onas1{
+  position: absolute;
+  width: 583px;
+  height: 530px;
+  left: 0px;
+  top: 2030px;
+}
+.onas{
+  position: absolute;
+  width: 109px;
+  height: 66px;
+  left: 68px;
+  top: 0px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 103px;  
+  text-align: justify;
+}
+.logo3{
+  position: relative;
+  width: 155px;
+  height: 71px;
+  left: -10px;
+  top: 30px;
+ }
+.bigtext{
+  position: absolute;
+  width: 451px;
+  height: 500px;
+  left: 66px;
+  top: 95px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.9px;
+  line-height: 40px;
+  text-align: justify;
+}
+/* 6 prichin */
+.prichiny123{
+  position: absolute;
+  width: 583px;
+  height: 380px;
+  left: 0px;
+  top: 2650px;
+}
+.prichina{
+  position: absolute;
+  width: 517px;
+  height: 62px;
+  left: 68px;
+  top: -10px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: left;
+}
+
+.odin{
+  position: absolute;
+  width: 15px;
+  height: 45px;
+  left: 140px;
+  top: 120px;
+  
+  line-height: 87px;
+  
+  text-align: justify;
+}
+.dva{
+  position: absolute;
+  width: 29px;
+  height: 45px;
+  left: 170px;
+  top: 180px;
+  
+  line-height: 87px;
+  
+  text-align: justify;
+}
+.tri{
+  position: absolute;
+  width: 29px;
+  height: 45px;
+  left: 210px;
+  top: 250px;
+  
+  line-height: 87px;
+  
+  text-align: justify;
+}
+
+.odin1{
+  position: absolute;
+  width: 341px;
+  height: 53px;
+  left: 170px;
+  top: 95px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 66px;
+  
+  text-align: justify;
+}
+.dva2{
+  position: absolute;
+  width: 341px;
+  height: 53px;
+  left: 212px;
+  top: 156px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 66px;
+
+  text-align: justify;
+}
+.tri3{
+  position: absolute;
+  width: 341px;
+  height: 53px;
+  left: 255px;
+  top: 225px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 66px;
+
+  text-align: justify;
+}
+/* NASH ADRES*/
+.nashiadresa{
+  position: absolute;
+  width: 583px;
+  height: 380px;
+  left: 0px;
+  top: 3050px;
+}
+.nashadres{
+  position: absolute;
+  width: 213px;
+  height: 103px;
+  left: 72px;
+  top: -30px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 103px;
+  
+  text-align: justify;
+}
+.nashadres2{
+  position: absolute;
+  width: 301px;
+  height: 57px;
+  left: 80px;
+  top: 40px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 57px;
+  
+  text-align: justify;
+}
+/* FOOTER */
+.footer{
+  position: absolute;
+  width: 583px;
+  height: 330px;
+  left: 0px;
+  top: 3410px;
+}
+.linefoot{
+  position: absolute;
+  width: 543px;
+  height: 2px;
+  left: 40px;
+  top: 20px;
+}
+.email{
+  position: absolute;
+  width: 60px;
+  height: 31px;
+  left: 93px;
+  top: 20px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+
+  text-align: center;
+}
+.telephone{
+  position: absolute;
+  width: 95px;
+  height: 33.36px;
+  left: 100px;
+  top: 140px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 31px;
+
+  text-align: center;
+}
+.telephone1{
+  position: absolute;
+  width: 175px;
+  height: 87.18px;
+  left: 66px;
+  top: 170px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  
+  text-align: center;
+}
+.social{
+  position: absolute;
+  width: 202px;
+  height: 31px;
+  left: 335px;
+  top: 22px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 31px;
+  
+  text-align: center;
+}
+.instagram{
+  position: absolute;
+  left: 400px;
+  top: 78px;
+}
+.facebook{
+  position: absolute;
+  left: 460px;
+  top: 78px;
+}
+
+/*content2*/
+.content2{
+  position: absolute;
+  width: 795px;
+  height: 3750px;
+  left: 583px;
+  top: 54px;
+
+  background: #000000;
+}
+.youtube{
+  position: absolute;
+  width: 795px;
+  height: 578px;
+  left: 0px;
+  top: -2px;
+}
+/* CARD1 */
+.card1{
+  position: absolute;
+  width: 458px;
+  height: 545px;
+  margin-top: 90px;
+  margin-left: 180px;
+  
+  border: 1px solid #97CA15;
+  border-radius: 20px 20px 20px 20px;
+}
+.card1 img{
+  position: absolute;
+  width: 100px;
+  height: 120.08px;
+  margin-top: 38px;
+  margin-left: 180px;
+}
+.card1 h6{
+  position: absolute;
+  width: 280px;
+  height: 29px;
+  margin-top: 196px;
+  margin-left: 110px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #FFFFFF;
+}
+.card1 p{
+  position: absolute;
+  width: 300px;
+  height: 209px;
+  left: 80px;
+  top: 230px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  
+  text-align: justify;
+  color: #FFFFFF;
+}
+.card1 button{
+  position: absolute;
+  width: 247px;
+  height: 34px;
+  left: 110px;
+  top: 480px;
+  
+  color: white;
+  background-color: black;
+  border: 2px solid #99C911;
+  box-sizing: border-box;
+  border-radius: 1px;
+}
+.card1 button:hover{
+  background-color: #99C911;
+}
+/* CARD2 */
+.card2{
+  position: absolute;
+  width: 458px;
+  height: 612px;
+  margin-top: 800px;
+  margin-left: 180px;
+  
+  border: 1px solid #97CA15;
+  border-radius: 20px 20px 20px 20px;
+}
+.card2 img{
+  position: absolute;
+  width: 100px;
+  height: 120.08px;
+  margin-top: 40px;
+  margin-left: 185px;
+}
+.card2 h4{
+  position: absolute;
+  width: 280px;
+  height: 29px;
+  margin-top: 180px;
+  margin-left: 120px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #FFFFFF; 
+}
+.card2txt{
+  position: absolute;
+  width: 350px;
+  height: 200px;
+  left: 60px;
+  top: 205px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 30px;
+  
+  text-align: center;
+  color: #FFFFFF;
+}
+.line{
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  margin-top: 469px;
+  margin-left: 230px;
+
+  background-color: #97CA15;
+}
+/* СТОИМОСТЬ ВСЕГО КУРСА */
+.stoim{
+  position: absolute;
+  width: 458px;
+  height: 29px;
+  left: 0px;
+  top: 440px;
+  
+  background: #97CA15;
+}
+.stoimp{
+  position: absolute;
+  width: 192px;
+  height: 18px;
+  left: 148px;
+  top: -12px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  
+  color: #FFFFFF;
+}
+/* БЕЗ СКИДКИ */
+.firststoim{
+  position: absolute;
+  width: 210px;
+  height: 140px;
+  margin-top: 445px;
+}
+.summ1{
+  position: absolute;
+  width: 111px;
+  height: 50.3px;
+  left: 65px;
+  top: 0px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  text-decoration-line: line-through;
+  
+  color: #FF0101;
+}
+.bezskidki{
+  position: absolute;
+  width: 164px;
+  height: 17px;
+  left: 60px;
+  top: 75px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #7e7a7a;
+}
+/* ЛИНИЯ ПО ЦЕНТРУ */
+.lineger{
+  position: absolute;
+  background-color: #99C911;
+  height: 3px;
+  width: 1423.02px;
+  left: -549px;
+  top: 2150px;
+}
+/* СО СКИДКОЙ */
+.secondstoim{
+  position: absolute;
+  width: 210px;
+  height: 140px;
+  margin-top: 445px;
+  margin-left: 260px;
+}
+.summ2{
+  position: absolute;
+  width: 111px;
+  height: 50.3px;
+  left: 40px;
+  top: 0px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  
+  color: white;
+}
+.soskidkoi{
+  position: absolute;
+  width: 164px;
+  height: 17px;
+  left: 45px;
+  top: 75px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #7e7a7a;
+}
+.karantin{
+  position: absolute;
+  width: 276px;
+  height: 19px;
+  left: 130px;
+  top: 570px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7e7a7a;
+}
+/* НАШ ОФИС */
+.office{
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  margin-top: 1480px;
+}
+.nashoffice{
+  position: absolute;
+  width: 259px;
+  height: 66px;
+  left: 74px;
+  top: -30px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 103px;
+  
+  text-align: justify;
+  
+  color: #FFFFFF;
+}
+.logo4{
+  position: absolute;
+  width: 545px;
+  height: 300px;
+  left: 158px;
+  top: 200px;
+}
+.fotoffice{
+  position: absolute;
+  width: 200px;
+  height: 130.92px;
+  left: 71px;
+  top: 134px;
+}
+/* ПРИЧИНЫ456 */
+.prichiny456{
+  position: absolute;
+  width: 583px;
+  height: 380px;
+  left: 0px;
+  top: 2650px;
+  white-space: nowrap;
+}
+.chetyre{
+  position: absolute;
+  width: 34px;
+  height: 45px;
+  left: 110px;
+  top: 120px;
+  
+  line-height: 87px;
+  text-align: justify;
+}
+.piat{
+  position: absolute;
+  width: 29px;
+  height: 45px;
+  left: 150px;
+  top: 180px;
+  
+  line-height: 87px;
+  text-align: justify;
+}
+.shest{
+  position: absolute;
+  width: 29px;
+  height: 45px;
+  left: 190px;
+  top: 250px;
+  
+  line-height: 87px;
+  
+  text-align: justify;
+}
+
+.chetyre4{
+  position: absolute;
+  width: 341px;
+  height: 53px;
+  left: 170px;
+  top: 95px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 66px;
+  color: white;
+  text-align: justify;
+}
+.piat5{
+  position: absolute;
+  width: 341px;
+  height: 53px;
+  left: 212px;
+  top: 156px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 66px;
+  color: white;
+  text-align: justify;
+}
+.shest6{
+  position: absolute;
+  width: 341px;
+  height: 53px;
+  left: 255px;
+  top: 225px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 66px;
+  color: white;
+  text-align: justify;
+}
+/* LOGIN */
+.loginb{
+  position: absolute;
+  margin-top: 2500px;
+}
+.loginb p{
+  width: 630px;
+  height: 61px;
+  margin-left: 75px;
+
+  font-size: 24px;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 41px;
+  text-align: center;
+}
+#cityb{
+  position: relative;
+  height: 29px;
+  padding: 25px 100px;
+  margin-left: 130px;
+  background-color: black;
+
+  border: none;
+  color: white;
+  border-bottom: 1px solid yellowgreen;
+  font-family: "Nunito",sans-serif;
+  font-size: 25px;
+  outline: none;
+  padding-top: 20px;
+}
+.end{
+  position: absolute;
+  width: 260px;
+  height: 40px;
+
+  margin-left: 260px;
+  margin-top: 50px;
+}
+.end button{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  position: absolute;
+  width: 253px;
+  height: 37px;
+  color: white;
+  background-color: black;
+  border: 1.74872px solid #99C911;
+  box-sizing: border-box;
+  border-radius: 5.24616px;
+}
+.end button:hover{
+  background-color: #99C911;
+}

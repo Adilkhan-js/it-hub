@@ -1,0 +1,389 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* header */
+header{
+    width: auto;
+    height: 67px;
+}
+.first{
+    width: 100%;
+    height: 67px;
+    background-color: black;
+}
+.logo{
+    position: absolute;
+    left: 160px;
+    top: 12px;
+}
+  /* menu */
+.menu{
+  width: 72%;
+  height: 5px;
+  margin-left: 365px;
+  display: flex;
+}
+a{
+  text-decoration: none; 
+  color: #a19d9d;
+  margin-top: 2px;
+  margin-right: 47px; 
+}
+li{
+  list-style-type: none;
+  white-space: nowrap;
+  font-size: 16px;
+}
+.nav{
+  display: flex;
+  width: 20%;
+  margin-top: 2%;
+  margin-left: 20px;
+  padding-left: 0;
+}
+.nav a:hover{
+  color: #99C911;
+}
+
+.navline{
+    position: absolute;
+    width: 110px;
+    height: 0px;
+    left: 525px;
+    top: 48px;
+    
+    border: 1px solid #97CA15;
+    box-shadow: 0px 2px 3px #97CA15;
+}
+/* rukg */
+.ru{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 934px;
+    top: 23px;
+  
+    color: lawngreen;
+    background-color: black;
+    border: 0;
+  
+  }
+.kg{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 960px;
+    top: 23px;
+  
+    color: white;
+    background-color: black;
+    border: 0;
+}
+.voiti{
+    position: absolute;
+    width: 60px;
+    height: 23px;
+    left: 1030px;
+    top: 22px;
+    color: #a19d9d;
+}
+.reg{
+    position: absolute;
+    width: 100px;
+    height: 23px;
+    left: 1085px;
+    top: 22px;
+    color: #a19d9d;
+}
+/* conteiner1 */
+.conteiner{
+    position: absolute;
+    width: 1441.7px;
+    height: 668px;
+    left: 0px;
+    top: 67px;
+    background: #EFEFEF;
+    background-image: url(/img/Group\ 173.png);
+}
+.uchi{
+    position: absolute;
+    width: 146px;
+    height: 74.27px;
+    left: 372px;
+    top: 34px;
+}
+.uchi2{
+    position: absolute;
+    width: 482.54px;
+    height: 36.51px;
+    left: 516.76px;
+    top: 25px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29.6949px;
+    line-height: 36px;
+}
+.nashionkursy{
+    position: absolute;
+    width: 683px;
+    height: 80.38px;
+    left: 355px;
+    top: 60px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: 10px;
+}
+.mipred{
+    position: absolute;
+    width: 501px;
+    height: 34.59px;
+    left: 468px;
+    top: 175px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.6694px;
+    line-height: 19px;
+}
+.redcard{
+    position: absolute;
+    width: 650px;
+    height: 416px;
+    left: 342px;
+    top: 321px;
+    
+    background: #F65D4D;
+}
+/* conteiner2 */
+.conteiner2{
+    position: absolute;
+    width: 1444.67px;
+    height: 650px;
+    left: 0px;
+    top: 735px;
+    
+    background: #EFEFEF;
+    background-image: url(/img/Group\ 140.png);
+}
+/* cards */
+.card1{
+    position: absolute;
+    width: 300px;
+    height: 510.74px;
+    left: 15px;
+    top: 63px;
+    
+    background: #FBFBFB;
+}
+.frontimg{
+    position: absolute;
+    width: 114.8px;
+    height: 127.77px;
+    left: 100px;
+    top: 25px;
+}
+.javascript{
+    position: absolute;
+    width: 131px;
+    height: 29.51px;
+    left: 100px;
+    top: 140px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+.polnkurs{
+    position: absolute;
+    width: 252px;
+    height: 18.31px;
+    left: 50px;
+    top: 185px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.145em;
+    
+    color: #8CC84B;
+}
+.bigtxt{
+    position: absolute;
+    width: 230px;
+    height: 76.31px;
+    left: 40px;
+    top: 238px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: justify;
+}
+/* button */
+.podrobnee{
+    position: absolute;
+    width: 130px;
+    height: 25.44px;
+    left: 16px;
+    top: 449px;
+    border: 1px solid #99C911;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 0px #000000);
+    border-radius: 15px;
+}
+.kupit{
+    position: absolute;
+    width: 130px;
+    height: 25.44px;
+    left: 153px;
+    top: 449px;
+    
+    border: 1px solid #99C911;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+/* card2 */
+.card2{
+    position: absolute;
+    width: 300px;
+    height: 510.74px;
+    left: 358px;
+    top: 63px;
+    
+    background: #FBFBFB;
+}
+/* card3 */
+.card3{
+    position: absolute;
+    width: 300px;
+    height: 510.74px;
+    left: 701px;
+    top: 63px;
+    
+    background: #FBFBFB;
+}
+/* card4 */
+.card4{
+    position: absolute;
+    width: 300px;
+    height: 510.74px;
+    left: 1044px;
+    top: 63px;
+    
+    background: #FBFBFB;
+}
+.conteiner3{
+    position: absolute;
+    width: 1442px;
+    height: 164px;
+    left: 0px;
+    top: 1386px;
+    
+    background: #040404;
+}
+/* footer */
+.telephone{
+    position: absolute;
+    width: 95px;
+    height: 31.65px;
+    left: 214px;
+    top: 10px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+}
+.telephone1{
+    position: absolute;
+    width: 175px;
+    height: 82.7px;
+    left: 175px;
+    top: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #a19d9d;
+}
+.email{
+    position: absolute;
+    width: 60px;
+    height: 29.41px;
+    left: 457px;
+    top: 10px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.social{
+    position: absolute;
+    width: 202px;
+    height: 6.77px;
+    left: 718px;
+    top: 10px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.instagram{
+    position: absolute;
+    top: 67px;
+    left: 762px;
+}
+.facebook{
+    position: absolute;
+    top: 67px;
+    left: 830px;
+}
+.nashadres{
+    position: absolute;
+    width: 170.17px;
+    height: 72.48px;
+    left: 1010px;
+    top: -20px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 72px;
+    text-align: justify;
+    
+    color: #FFFFFF;
+}
+.gorod{
+    position: absolute;
+    width: 240.47px;
+    height: 40.11px;
+    left: 1012.94px;
+    top: 38px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.8375px;
+    line-height: 43px;
+    text-align: justify;
+    
+    color: #a19d9d;
+}
